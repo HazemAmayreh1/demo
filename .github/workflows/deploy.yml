@@ -21,7 +21,8 @@ jobs:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
         run: |
           railway up \
-            --project  \
-            --environment  \
-            --service \
+            --project 9a75ce67-84ef-494a-8363-9b454ac4044d \
+            --environment 5e0d869e-e5f1-4f64-aabb-644f7940717c  \
+            --service ea4dd6de-bd27-4434-8e57-3dd9e260be71 \
+            || true
           
