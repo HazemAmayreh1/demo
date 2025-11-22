@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
             CI/CD WORKING 
           </h1>
           <p style="font-size:20px; opacity:.8;">
-            Hazem Amayreh dev 
+            Hazem Amayreh hello word
           </p>
         </div>
       </body>
